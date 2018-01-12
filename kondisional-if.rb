@@ -30,7 +30,41 @@ Dalam Ruby blok kode dapat dibuat dalam dua cara :
 #	i += 1
 #}
 
-#PENGGUNAAN IF KONDISIONAL
-print "Masukkan Nilai 1 - 10 : "
+#PENGGUNAAN IF KONDISIONAL dengan satu kondisi
+#print "Masukkan Nilai Pertama : "
+#nilai_1 = gets.to_f
+#print "Masukkan Nilai Kedua : "
+#nilai_2 = gets.to_f
 
+#if nilai_1 == 0 then
+#	puts "Nilai Tidak boleh Nol"
+#	exit
+#end
+
+#hasil = nilai_1 / nilai_2
+#puts "Hasil Bagi adalah : #{hasil}"
+
+
+#PENGGUNAAN IF KONDISIONAL dengan dua kondisi
+#print "Masukkan Nilai : "
+#nilai = gets.to_i
+#hasil = nilai % 2
+
+#if hasil == 0 then
+#	puts "Nilai #{nilai} adalah Genap"
+#else 
+#	puts "Nilai #{nilai} adalah Ganjil"
+#end
+
+#PENGGUNAAN IF KONDISIONAL dengan tiga kondisi atau lebih
+print "Masukkan Bilangan Bulat : "
+bulat = gets.to_i
+
+if bulat == 0 then
+	puts "Anda memasukkan nilai 0"
+elsif bulat > 0
+	puts "Anda memasukkan Bulat Positif"
+else
+	puts "Anda memasukkan Bulat nilai negatif"
+end
  
