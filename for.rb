@@ -30,12 +30,14 @@
 #Menggunakan titik dua, misalnya (1..2) hasil yang akan dikeluarkan adalah nilai 1, 2
 #Menggunakan titik tiga, misalnya (1...4) hasil yang akan dikeluarkan adalah nilai 1,2,3
 
-for i in (1..5) do
-	puts "Nilai #{i}"
-end
+#for i in (1..5) do
+#	puts "Nilai #{i}"
+#end
 
-puts "\n" 
+#puts "\n" 
 
-for i in (1...5) do
-	puts "Nilai #{i}"
-end
+#for i in (1...5) do
+#	puts "Nilai #{i}"
+#end
+
+ 
