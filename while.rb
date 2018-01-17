@@ -42,3 +42,29 @@
 #	i += 1
 #end
 #puts total.to_s
+
+#Program Menghitung Faktorial
+print "Masukkan Nilai : "
+n = gets.to_i
+
+print "#{n}! : "
+
+if n == 0 then
+	puts "Error"
+elsif n < 0 then
+	puts "1"
+else
+	faktorial = 1
+	i = n
+	while i >= 1 do
+		print i.to_s
+		if i > 1 then
+			print " x "
+		else
+			print " = "
+		end
+		faktorial *= i
+		i -= 1
+	end
+	puts faktorial.to_s
+end
