@@ -36,11 +36,11 @@ else
 	
 =end
 
-print "Masukkan Nilai : "
-nilai = gets.to_i
-
-unless nilai % 2 == 0 then
-	puts "#{nilai} nilai ganjil"
-else
-	puts "#{nilai} nilai genap"
-end
+#print "Masukkan Nilai : "
+#nilai = gets.to_i
+#
+#unless nilai % 2 == 0 then
+#	puts "#{nilai} nilai ganjil"
+#else
+#	puts "#{nilai} nilai genap"
+#end

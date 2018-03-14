@@ -71,18 +71,19 @@
 
 #Program menggunakan until()
 #Until digunakan untuk jika pernyataan yang diberikan bernilai salah, jika bernilai benar maka program tidak dieksekusi
-print "Masukkan Nilai a: "
-a = gets.to_f
 
-b = 0
-until b != 0 do
-	print "Masukkan Nilai b: "
-	b = gets.to_f
-	puts "Salah: b tidak boleh menggunakan Nol" if b == 0
-end
-
-c = a / b
-
-puts "#{a} / #{b} = #{c}"
+#print "Masukkan Nilai a: "
+#a = gets.to_f
+#
+#b = 0
+#until b != 0 do
+#	print "Masukkan Nilai b: "
+#	b = gets.to_f
+#	puts "Salah: b tidak boleh menggunakan Nol" if b == 0
+#end
+#
+#c = a / b
+#
+#puts "#{a} / #{b} = #{c}"
 
 
