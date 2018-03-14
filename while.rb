@@ -44,27 +44,45 @@
 #puts total.to_s
 
 #Program Menghitung Faktorial
-print "Masukkan Nilai : "
-n = gets.to_i
+#print "Masukkan Nilai : "
+#n = gets.to_i
 
-print "#{n}! : "
+#print "#{n}! : "
 
-if n == 0 then
-	puts "Error"
-elsif n < 0 then
-	puts "1"
-else
-	faktorial = 1
-	i = n
-	while i >= 1 do
-		print i.to_s
-		if i > 1 then
-			print " x "
-		else
-			print " = "
-		end
-		faktorial *= i
-		i -= 1
-	end
-	puts faktorial.to_s
+#if n == 0 then
+#	puts "Error"
+#elsif n < 0 then
+#	puts "1"
+#else
+#	faktorial = 1
+#	i = n
+#	while i >= 1 do
+#		print i.to_s
+#		if i > 1 then
+#			print " x "
+#		else
+#			print " = "
+#		end
+#		faktorial *= i
+#		i -= 1
+#	end
+#	puts faktorial.to_s
+#end
+
+#Program menggunakan until()
+#Until digunakan untuk jika pernyataan yang diberikan bernilai salah, jika bernilai benar maka program tidak dieksekusi
+print "Masukkan Nilai a: "
+a = gets.to_f
+
+b = 0
+until b != 0 do
+	print "Masukkan Nilai b: "
+	b = gets.to_f
+	puts "Salah: b tidak boleh menggunakan Nol" if b == 0
 end
+
+c = a / b
+
+puts "#{a} / #{b} = #{c}"
+
+
