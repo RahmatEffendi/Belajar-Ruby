@@ -100,5 +100,20 @@
 #}
 
 
+#Perulangan menggunakan step()
+# step() merupakan method yang digunakan untuk melakukan selang angka, step() sama hal nya dengan upto(), jika
+# step() tidak menggunakan selang angka maka hasilnya akan sama dengan penggunaan upto()
+# 
+# format umum:
+# 	indexAwal.step(indexAkhir, selang){
+# 		|index| #aksi
+# 	}
 
-
+#print "Masukkan Angka Index Awal : "
+#indexAwal = gets.to_i
+#print "Masukkan Angka Index Akhir : "
+#indexAkhir = gets.to_i
+#
+#indexAwal.step(indexAkhir, 3){ |i|
+#	puts "Nilai Selang : #{i}"
+#}
