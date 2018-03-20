@@ -1,2 +1,2 @@
 # Belajar-Ruby
-Berikan Beberapa Kumpulan Code dari Ruby
+Berikut Beberapa Kumpulan Code Belajar dari Ruby
