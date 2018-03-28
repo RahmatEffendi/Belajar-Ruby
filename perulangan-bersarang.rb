@@ -9,9 +9,11 @@
 #end
 
 #Perulangan diatas juga bisa digunakan dengan menggunakan upto()
-1.upto(10) do |i|
-    1.upto(10) do |j|
-        print "#{i * j}\t"
-    end
-    print "\n"
-end
+#1.upto(10) do |i|
+#    1.upto(10) do |j|
+#        print "#{i * j}\t"
+#    end
+#    print "\n"
+#end
+
+
