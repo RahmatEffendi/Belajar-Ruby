@@ -42,6 +42,21 @@
     #redo if i == 3
 #end
 
+#RETURN
+#   Perintah digunakan untuk mengembalikan nilai yang dieksekusi di dalam baris kode, baik itu di dalam
+#methode, class dan sebagainya. Jika pernah menggunakan bahasa pemprograman lain selain ruby, misalanya
+#Java, python dan sebagainya pasti pernah dan kenal dengan penggunaan Return.
+
+#contoh program menggunakan return
+#def tambah(x, y)
+#    return puts x + y
+#end
+#
+#tambah(10,4)
+
+
+
+
 
 
 
