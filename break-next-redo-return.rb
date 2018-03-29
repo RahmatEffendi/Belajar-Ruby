@@ -23,8 +23,26 @@
 #maka perintah break akan dieksekusi dan program berhenti.
 
 #NEXT
-1.upto(10) do |i|
-    next if i % 2 == 0
-    puts i
-end
+#1.upto(10) do |i|
+#    next if i % 2 == 0
+#    puts i
+#end
+
+#REDO
+#   Perintah redo digunakan untuk melanjutkan perintah eksekusi jika nilai dari perintah
+#eksekusi tersebut sudah terjapai. Misalnya menampilkan angka 1 sampai 3, jika nilai yang dikeluarkan
+#bernilai 3 maka perintah berhenti, dan hasil keluarnya adalah 0,1,2. Jika menggunakan redo nilai yang
+#dikeluarkan akan menjadi 0,1,2,3
+
+#contoh penggunaan Redo
+#i = 0
+#while i < 3 do
+#    print i.to_s + " "
+#    i += 1
+    #redo if i == 3
+#end
+
+
+
+
 
