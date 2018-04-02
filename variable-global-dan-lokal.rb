@@ -14,18 +14,18 @@
 =end
 
 #contoh penggunaan variable global dan variable local
-$a = 10
-def method_global()
-    puts $a
-end
+#$a = 10
+#def method_global()
+#    puts $a
+#end
 
-def method_local()
-    $b = 11
-    puts $b 
-end
+#def method_local()
+#    $b = 11
+#    puts $b 
+#end
 
-method_global() #variable global
-method_local() #variable local
+#method_global() #variable global
+#method_local() #variable local
 
 =begin
     pada program diatas dapat dilihat bahwa  $a adalah variable secara global yang didefinisikan diluar dari pada
