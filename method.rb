@@ -1,16 +1,5 @@
 =begin
-    METHOD
-
-    Method adalah suatu blok kode yang didalamnya berisikan tugas secara spesifik, yang akan digunakan
-    atau bisa digunakan oleh kode lain dalam pemanggilannya di luar dari blok method tersebut. Method 
-    sama hal nya dengan bahasa pemprograman pada umumnya fungsi dan kegunaannya juga sama, namun cara
-    penulisannya saja yang berbeda karena ini adalah Ruby bukan PHP, python atau lainnnya.
-
-    Aturan penamaan method pada ruby sama dengan aturan penamaan pada bahasa pemprograman lain pada
-    umumnya, Namun pada ruby bisa diawali dengan underscore (_), tanda tanya (?) dan tanda seru (!).
-    Method pada ruby dibagi menjadi dua bagian :
-        1. Method dengan nilai balik,
-        2. Method tanpa nilai balik
+    Pembahasan Method
 =end
 
 #Mothed Tanpa Nilai Balik
@@ -59,9 +48,9 @@
 
 #Bagaimana jika pemanggilan medthod nya memiliki parameter, gampang saja, tinggal memasukkan
 #parameter dari method tersebut. Misalnya :
-def helloworld_2(nama)
-    return print "Hello " + nama
-end
+#def helloworld_2(nama)
+#    return print "Hello " + nama
+#end
 
 #panggil methodnya nama parameter yang harus memiliki value
-helloworld_2("rahmat")
+#helloworld_2("rahmat")
