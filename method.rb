@@ -54,3 +54,4 @@
 
 #panggil methodnya nama parameter yang harus memiliki value
 #helloworld_2("rahmat")
+
