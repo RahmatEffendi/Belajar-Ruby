@@ -33,3 +33,4 @@ method_local() #variable local
     Sedangkan pada method kedua variable didefinisikan didalam methodnya sendiri dan tidak dapat dipanggil
     diluar dari methodnnya.
 =end
+
