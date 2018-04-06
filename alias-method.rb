@@ -30,14 +30,15 @@
 #       undef Nama_method
 
 #contohnya
-def apus_method()
-    puts "Hello Hapus Method"
-end
+#def apus_method()
+#    puts "Hello Hapus Method"
+#end
+
 #panggil method
-apus_method()
+#apus_method()
 
 #hapus method
-undef apus_method
+#undef apus_method
 
 #panggil method setelah dihapus
-apus_method()
+#apus_method()
