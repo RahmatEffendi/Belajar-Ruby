@@ -1,0 +1,34 @@
+Bahasa Pemprograman Ruby
+
+Ruby merupakan Bahasa pemprograman yang dapat digunakan pada CLI (Command Line Interface), 
+desktop (GUI) dan berbasis web. Ruby merupakan Bahasa sejenis dengan python, perl dan PHP. 
+Ruby dibuat agar memudahkan developer dalam hal pengembangan aplikasi yang dilakukan.
+
+Ruby dikembangkan oleh Yukihiro Matsumoto pada tahun 1993. Ruby merupakan bahasa pemprograman
+beroritentasi object murni sama seperti python, dimana semua yang terdapat pada ruby adalah 
+object(instance) dari suatu kelas tertentu. Ruby merupakan bahasa pemprograman cross-platform sehingga pengembangan aplikasi bisa digunakan
+pada sistem yang berbeda-beda, bisa di Windows, Linux, Max OS dan varian dari Unix lainnya.
+
+Installasi
+
+Ruby dapat di download pada website resminya sendiri di https://www.ruby-lang.org/en/ dan https://www.ruby-lang.org/en/downloads/
+untuk pengguna bisa mendownload ruby yang berextensi .exe dan lakukan penginstallan seperti biasa
+
+Installasi di linux (based Ubuntu)
+
+    $sudo apt-get install ruby2.3 ruby2.3-dev 
+
+Berikut contoh penggunaan ruby 
+
+print "Masukkan Nilai : "
+nilai = gets.to_i
+
+if nilai % 2 == 0 
+    puts "Nilai Genap"
+else
+    puts "Nilai Ganjil"
+end
+
+Bagi pembaca yang ingin mempelajari ruby lebih mendalam dari dasar sampai dengan mahir, bisa mengikuti
+update tutorial dari blog ini, Namun jika ingin mencobanya dengan alternatif lain bisa mengukuti beberapa
+online kursus misalnya di codeacademy dan sejenisnya. Referensi lain bisa mengikuti pada link Berikut http://tryruby.org/levels/1/challenges/0
