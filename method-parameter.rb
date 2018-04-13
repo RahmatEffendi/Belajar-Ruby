@@ -17,15 +17,29 @@
 =end
 
 #Method dengan dua parameter
-def perkalian(a, b)
-    return a * b
-end
+#def perkalian(a, b)
+#    return a * b
+#end
 
-print "Masukkan nilai pertama : "
-a = gets.to_i
-print "Masukkan nilai kedua : "
-b = gets.to_i
-hasil = perkalian(a,b)
-puts "Hasil perkalian #{a} * #{b} : #{hasil}"
+#print "Masukkan nilai pertama : "
+#a = gets.to_i
+#print "Masukkan nilai kedua : "
+#b = gets.to_i
+#hasil = perkalian(a,b)
+#puts "Hasil perkalian #{a} * #{b} : #{hasil}"
 
+#Parameter Default Pada Method
+#def cetak(s, baris="\n")
+#    print "#{s} #{baris}"
+#end
 
+#cetak("Belajar")
+#cetak("Bahasa")
+#cetak("pemprograman")
+#cetak("ruby")
+
+#cetak('php', ', ')
+#cetak('python', ', ')
+#cetak('ruby', ', ')
+#barisBaru = "\n"
+#cetak('java', barisBaru)
