@@ -1,4 +1,14 @@
-#Method dengan menggunakan parameter
+Parameter Method
+
+    Method telah dijelaskan pada pembahasan sebelumnya, pada hari ini akan dibahas tentang Parameter. Parameter merupakan
+bagian terpenting dari method. Jika Parameter tidak dimiliki oleh method, method masih bisa berjalan, namun itu hanya
+untuk penggunaan program sederhana saja. Namun bagaimana dengan pengolahan data skala besar misalnya mengolah data
+pegawai perusahaan yang memiliki beberapa Parameter yang sama namun berbeda pegawai. Untuk itu Parameter membantu
+developer dalam memudahkan proses pengcodingan.
+
+Parameter itu sendiri merupakan item-item yang digunakan sesuai dengan kebutuhan yang diinginkan, dengan kata lain
+parameter dibuat oleh seorang developer dalam melakukan suatu proses. Pada method parameter bisa digunakan lebih dari satu parameter atau satu saja parameter juga bisa, tergantung dari kebutuhan 
+yang diinginkan. Perbandingannya dapat dilihat pada contoh program sederhana dibawah.
 
 #Method dengan menggunakan satu parameter
 #def cetak(n)
@@ -12,9 +22,6 @@
 #n = gets.to_i
 #cetak(n)
 
-=begin
-    penjelasan
-=end
 
 #Method dengan dua parameter
 #def perkalian(a, b)
@@ -27,6 +34,7 @@
 #b = gets.to_i
 #hasil = perkalian(a,b)
 #puts "Hasil perkalian #{a} * #{b} : #{hasil}"
+
 
 #Parameter Default Pada Method
 #def cetak(s, baris="\n")
@@ -44,24 +52,26 @@
 #barisBaru = "\n"
 #cetak('java', barisBaru)
 
+#def riwayat(nama:, alamat:, ttl:, usia:)
+#    puts "Nama : #{nama}"
+#    puts "Alamat : #{alamat}"
+#    puts "Tempat/Tgl Lahir : #{ttl}"
+#    puts "Usia : #{usia}"
+#end
 
-def riwayat(nama:, alamat:, ttl:, usia:)
-    puts "Nama : #{nama}"
-    puts "Alamat : #{alamat}"
-    puts "Tempat/Tgl Lahir : #{ttl}"
-    puts "Usia : #{usia}"
-end
 
-print "Nama : "
-nama = gets.to_s
-print "Alamat : "
-alamat = gets.to_s
-print "Tempat/Tgl Lahir : "
-ttl = gets.to_s
-print "Usia : "
-usia = gets.to_s
+Parameter menggunakan keyword argument
 
-riwayat(nama:nama, alamat:alamat, ttl:ttl, usia:usia)
+#print "Nama : "
+#nama = gets.to_s
+#print "Alamat : "
+#alamat = gets.to_s
+#print "Tempat/Tgl Lahir : "
+#ttl = gets.to_s
+#print "Usia : "
+#usia = gets.to_s
+
+#riwayat(nama:nama, alamat:alamat, ttl:ttl, usia:usia)
 
 =begin
     pada contoh diatas parameter yang digunakan pada method lebih dari satu atau dua parameter, pada pembahasana
@@ -79,7 +89,6 @@ riwayat(nama:nama, alamat:alamat, ttl:ttl, usia:usia)
 =end
 
 #contoh lain dengan penggunaan word berbeda dari parameter
-=begin
 def data(nama_awal:, nama_akhir:, nama_alias:)
     puts "Nama Awal : #{nama_awal}"
     puts "Nama Akhir : #{nama_akhir}"
@@ -94,4 +103,3 @@ print "Nama Alias : "
 alay = gets.to_s
 
 data(nama_awal:first, nama_akhir:second, nama_alias:alay)
-=end
