@@ -45,23 +45,23 @@
 #cetak('java', barisBaru)
 
 
-def riwayat(nama:, alamat:, ttl:, usia:)
-    puts "Nama : #{nama}"
-    puts "Alamat : #{alamat}"
-    puts "Tempat/Tgl Lahir : #{ttl}"
-    puts "Usia : #{usia}"
-end
+#def riwayat(nama:, alamat:, ttl:, usia:)
+#    puts "Nama : #{nama}"
+#    puts "Alamat : #{alamat}"
+#    puts "Tempat/Tgl Lahir : #{ttl}"
+#    puts "Usia : #{usia}"
+#end
 
-print "Nama : "
-nama = gets.to_s
-print "Alamat : "
-alamat = gets.to_s
-print "Tempat/Tgl Lahir : "
-ttl = gets.to_s
-print "Usia : "
-usia = gets.to_s
+#print "Nama : "
+#nama = gets.to_s
+#print "Alamat : "
+#alamat = gets.to_s
+#print "Tempat/Tgl Lahir : "
+#ttl = gets.to_s
+#print "Usia : "
+#usia = gets.to_s
 
-riwayat(nama:nama, alamat:alamat, ttl:ttl, usia:usia)
+#riwayat(nama:nama, alamat:alamat, ttl:ttl, usia:usia)
 
 =begin
     pada contoh diatas parameter yang digunakan pada method lebih dari satu atau dua parameter, pada pembahasana
@@ -94,4 +94,25 @@ print "Nama Alias : "
 alay = gets.to_s
 
 data(nama_awal:first, nama_akhir:second, nama_alias:alay)
+=end
+
+#Parameter variable-length Argument
+def cetakParameter(*var)
+    var.each{|parameter| puts parameter}
+end
+
+cetakParameter(100,200,300,400,500)
+
+=begin
+    Parameter variable-length Argument merupakan parameter yang dapat mengolah banyak inputan
+    biasanya parameter hanya mengolah satu value, misalnya parameter nama, akan mengolah value
+    dari nama yang diinput saja, dan nama tersebut cuma satu nama, tidak bisa banyak nama, jika kita
+    ingin mengolah nama lain maka program harus dieksekusi ulang.
+
+    Untuk itu guna nya dari pada variable-length argument. Parameter ini dapat mengolah banyak value
+    yang dimasukkan,misalnya parameter number bisa mengolah data yang dimasukkan lebih dari satu, misalnya
+    number(1,2,3,4). Untuk dapat melakukan hal ini variable-length argument membutuhkan symbol arterik (*) 
+    untuk lebih jelasnya dapat dilihat pada contoh diatas.
+    Dimana pada method cetakParameter(), parameter yang digunakan adalah var yang ditambahkan dengan symbol 
+    asterik menjadi cetakParameter(*var)
 =end
